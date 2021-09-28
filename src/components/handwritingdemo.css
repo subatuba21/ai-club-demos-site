@@ -1,0 +1,22 @@
+#sketchcontainer {
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#handwritinginterpretbutton {
+    margin: 0 auto;
+    display: block;
+}
+
+#handwritingclearbutton {
+    margin: 0 auto;
+    display: block;
+}
+
+#results {
+    min-width: 50%;
+    border: 2px solid black;
+    min-height: 40px;
+    display: inline-block;
+}

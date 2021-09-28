@@ -1,0 +1,47 @@
+#demo-container {
+    display: inline-block;
+    min-height: 20rem;
+    min-width: 20rem;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgba(200, 93, 241, 0.5), rgba(151, 0, 211, 0.6));
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+#demo-logo {
+    max-height: 8rem;
+    min-height: 7rem;
+    max-width: 15rem;
+    max-width: 15rem;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 3%;
+    width: 90%;
+    left: 5%;
+}
+
+.bottom-bar > p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.hashtag {
+    font-weight: 600;
+    font-size: 11pt;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    display: inline-block;
+}
