@@ -3,7 +3,7 @@ import Demo from "./demo";
 export default function Showcase() {
     return (
         <div>
-            <Demo title="Handwriting" description="This model can interpret your handwriting!" iconImage="/handwritinglogo.jpg" hashtags={["Linear Regression", "Gradient Descent"]} link="handwriting"></Demo>
+            <Demo title="Number Interpretation" description="This model can tell what number you wrote!" iconImage="/handwritinglogo.jpg" hashtags={["Neural Networks"]} link="handwriting"></Demo>
         </div>
     );
 }
