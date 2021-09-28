@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { SketchField, Tools } from "react-sketch2";
 import "./handwritingdemo.css";
-import { browser, LayersModel, loadLayersModel, unstack } from "@tensorflow/tfjs";
+import { browser, LayersModel, loadLayersModel } from "@tensorflow/tfjs";
 
 export default function HandwritingDemo() {
   const sketchref = useRef();
